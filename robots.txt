@@ -1,0 +1,4 @@
+Sitemap: https://reves-electriques.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: reves-electriques.github.io
