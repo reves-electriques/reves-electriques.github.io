@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Des rêves électriques</title><link>https://reves-electriques.github.io/</link><description>Le blog d'un programmeur espagnol.</description><atom:link rel="self" type="application/rss+xml" href="https://reves-electriques.github.io/es/rss.xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:jobdone.workeasy@gmail.com"&gt;Job Done&lt;/a&gt; </copyright><lastBuildDate>Tue, 02 Jan 2018 14:58:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Welcome to Nikola</title><link>https://reves-electriques.github.io/es/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1"&gt;&lt;img alt="Nikola Tesla Corner by nicwest, on Flickr" class="thumbnail" src="https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg"&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;If you can see this in a web browser, it means you managed to install Nikola,
-and build a site using it. Congratulations!&lt;/p&gt;
-&lt;p&gt;Next steps:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://reves-electriques.github.io/pages/handbook/"&gt;Read the manual&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://getnikola.com"&gt;Visit the Nikola website to learn more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://reves-electriques.github.io/es/galleries/demo/"&gt;See a demo photo gallery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://reves-electriques.github.io/pages/listings-demo/"&gt;See a demo listing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://reves-electriques.github.io/pages/slides-demo/"&gt;See a demo slideshow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://reves-electriques.github.io/pages/dr-nikolas-vendetta/"&gt;See a demo of a longer text&lt;/a&gt;&lt;/li&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Des rêves électriques</title><link>https://reves-electriques.github.io/</link><description>Le blog d'un programmeur espagnol.</description><atom:link rel="self" type="application/rss+xml" href="https://reves-electriques.github.io/es/rss.xml"></atom:link><language>es</language><copyright>Contents © 2018 &lt;a href="mailto:jobdone.workeasy@gmail.com"&gt;Job Done&lt;/a&gt; </copyright><lastBuildDate>Fri, 05 Jan 2018 14:45:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meltdown y Spectre para gente sin experiencia</title><link>https://reves-electriques.github.io/es/posts/20180105-meltdown-spectre/</link><dc:creator>Job Done</dc:creator><description>&lt;p&gt;Desde el 2 de enero llevamos recibiendo &lt;a target="_blank" href="https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/"&gt;noticias alarmantes&lt;/a&gt; sobre dos nuevas vulnerabilidades, que se llaman Meltdown y Spectre, que afectan potencialmente a todos nuestros ordenadores, portátiles y teléfonos. ¿Es grave? Sí. ¿Es tan grave como algunos medios dicen? Sí, pero no tan grave para el usuario medio.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://reves-electriques.github.io/images/20180105_meltdown.png" width="61" height="100" alt="Meltdown logo"&gt;&lt;/p&gt;
+&lt;p&gt;Muchos medios afirman que la solución inmediata a Meltdown tiene como consecuencia ralentizar la capacidad de procesamiento de todos los ordenadores entre un 5 y un 30%. La realidad es que la mayor parte de las aplicaciones de usuario no se van a ver afectadas por este tipo de parches. Estas tiritas pueden generar esas demoras en todo cambio de memoria entre el espacio de usuario y el del núcleo del sistema operativo. Aplicaciones de ofimática, edición de imagen o video, videojuegos; hacen muy pocos cambios de este tipo y no se van a ver tan afectados. Así que, como usuario no profesional, no te preocupes mucho por esta demora. Las que tienen un problema enorme con esto son las granjas de servidores, los centros de procesamiento de datos, las corporaciones con grandes bases de datos y las que proveen servicios en la nube. Ellos son las principales víctimas de esta vulnerabilidad.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://reves-electriques.github.io/images/20180105_spectre.png" width="100" height="79" alt="Spectre logo"&gt;&lt;/p&gt;
+&lt;p&gt;En cambio, el caso de Spectre es difícil de solucionar y puede que nuestros equipos sean vulnerables durante el resto de su vida útil. Ciertas variantes del ataque parecen sólo evitables con nuevas arquitecturas de procesadores que aún están por diseñar y fabricar. Pero no es necesario que quemes tu teléfono o lances tu ordenador por la ventana y vuelvas a la edad de piedra. Con unos sencillos pasos puedes evitar que seas fácilmente atacable. Es como con las bicicletas, si tomas unas precauciones básicas como usar un buen candado y no abandonarla por la noche en un sitio apartado es muy difícil que te roben. Los ladrones siempre van a lo fácil y en informática es lo mismo.&lt;/p&gt;
+&lt;p&gt;De lo que si te tienes que preocupar es del posible robo de información que supone Spectre que no se conoce solución ni se la espera. Se puede usar para robar tus contraseñas, tu acceso al banco o tu clave privada de la cartera de bitcoins.&lt;/p&gt;
+&lt;p&gt;Pues bien, por ahora se han detectado dos vectores de ataque principales:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;A través de un programa malicioso que se instale en el ordenador de la víctima.&lt;/li&gt;
+	&lt;li&gt;A través de la ejecución de código malicioso javascript que robe información almacenada en el navegador de la víctima.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Contra el primer tipo de ataque poca defensa hay aparte de intentar evitar ser infectado:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Mantener el sistema actualizado, ahora más que nunca: sistema operativo, aplicaciones, drivers, antivirus, etc... En los próximos días, e incluso meses, se irán distribuyendo actualizaciones de seguridad que intenten mitigar este problema.&lt;/li&gt;
+	&lt;li&gt;Sentido común a la hora de descargar aplicaciones. El mismo sentido común que siempre se debe tener para evitar ser contagiado por un virus informático.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Send feedback to &lt;a class="reference external" href="mailto:info@getnikola.com"&gt;info@getnikola.com&lt;/a&gt;!&lt;/p&gt;&lt;/div&gt;</description><guid>https://reves-electriques.github.io/es/posts/welcome-to-nikola/</guid><pubDate>Sat, 31 Mar 2012 02:00:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Consejos que todo hijo de buen vecino tendría que estar ya siguiendo.&lt;/p&gt;
+&lt;p&gt;Contra el segundo ataque lo que está en riesgo es la información que tiene cargada en memoria el navegador cuando se ejecuta el código malicioso. Por ello, mis consejos son:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;No mantener sesiones iniciadas en el navegador cuando estés visitando páginas de dudosa procedencia.&lt;/li&gt;
+	&lt;li&gt;No mantener contraseñas guardadas en el ordenador.&lt;/li&gt;
+	&lt;li&gt;Desactivar la ejecución de javascript en páginas de dudosa procedencia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y con esto, yo creo que puedes respirar tranquilo. Como dicen los que saben [2], si un cinturón negro te pone en su punto de mira vas a acabar en el hospital sí o sí. Pero mientras eso no ocurra, con sentido común andas relativamente a salvo y puedes pasear sin temor.&lt;/p&gt;
+&lt;p&gt;Otro asunto son los profesionales, estas vulnerabilidades van a suponer muchos millones de euros y muchos quebraderos de cabeza. Es grave, sí; pero para el ciudadano de a pie quedará en anécdota como ya quedó el "&lt;a target="blank" href="https://en.wikipedia.org/wiki/Year_2000_problem"&gt;Efecto 2000&lt;/a&gt;".&lt;/p&gt;
+&lt;p&gt;Meltdown y Spectre para los que quieran saber un poco más:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a target="_blank" href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/"&gt;Primera alarma&lt;/a&gt; al respecto.&lt;/li&gt;
+	&lt;li&gt;&lt;a target="_blank" href="https://meltdownattack.com/"&gt;Papers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><category>Seguridad</category><guid>https://reves-electriques.github.io/es/posts/20180105-meltdown-spectre/</guid><pubDate>Fri, 05 Jan 2018 14:05:00 GMT</pubDate></item></channel></rss>
