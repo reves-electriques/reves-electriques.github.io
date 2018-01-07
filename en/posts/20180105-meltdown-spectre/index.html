@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Des rêves électriques">
 <meta property="og:title" content="Meltdown and Spectre for the clueless">
 <meta property="og:url" content="https://reves-electriques.github.io/en/posts/20180105-meltdown-spectre/">
-<meta property="og:description" content="Coming soon...">
+<meta property="og:description" content="Since January 2 we have been receiving a wave of alarming news about two new vulnerabilities, called Meltdown and Spectre, which potentially affect all our computers, laptops and smartphones. Is it ba">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2018-01-05T15:05:00+01:00">
 <meta property="article:tag" content="Security">
@@ -99,9 +99,39 @@
         </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p><img src="../../../images/20180105_meltdown.png" width="61" height="100" alt="Meltdown logo"><img src="../../../images/20180105_spectre.png" width="100" height="79" alt="Spectre logo"></p>
-<p>Coming soon...</p>
-    </div>
+    <p>Since January 2 we have been receiving a wave of <a target="_blank" href="https://www.theregister.co.uk/2018/01/02/intel_cpu_design_flaw/">alarming news</a> about two new vulnerabilities, called Meltdown and Spectre, which potentially affect all our computers, laptops and smartphones. Is it bad? Yes. Is it as serious as some media say? Yes, but not as serious for the average user.</p>
+<p><img src="../../../images/20180105_meltdown.png" width="61" height="100" alt="Meltdown logo"></p>
+<p>Many sites claim that the immediate solution to Meltdown has the consequence of slowing the speed of all computers by 5 to 30%. The reality is that most user applications are not going to be affected by this. This band-aid introduces a delay in the memory management when switching between user space memory and kernel memory. Desktop applications, image or video editors, video games... They make very few context switches and they will not be affected too much. So, as a non-professional user, do not worry too much about those delays. The people in charge of server farms, data processing centers, large databases or cloud services are those who need to worry. They are the main victims of this vulnerability.</p>
+<p><img src="../../../images/20180105_spectre.png" width="100" height="79" alt="Spectre logo"></p>
+<p>On the other hand, the case of Spectre is more difficult to solve and our current equipment may be vulnerable forever. Certain variants of the attack seem only avoidable with new processor architectures that have to to be designed and manufactured. But you don't need to burn your phone or throw your computer out the window and go back to the Stone Age. With a few simple steps, you can avoid being easily attacked. It's like with your bicycle; if you take some basic precautions, like using a good lock and not leaving it at night in an isolated alley, it won't get stolen. The thieves always hunt the weak prey and it's the same with computer security.</p>
+<p>What you have to worry about is the possible theft of information that Spectre threats to accomplish for which no solution is currently known or even expected. It can be used to steal your passwords, your access to the bank or your private key from your bitcoin wallet.</p>
+<p>Only two main attack vectors have been detected so far:</p>
+<ol>
+<li>Through malware installed on the victim's computer.</li>
+	<li>Through the execution of malicious javascript code when you visit a website that steals information stored in the victim's browser.</li>
+</ol>
+<p>Against the first type of attack, there is little defense except for trying to avoid being infected:</p>
+<ul>
+<li>Keep your system updated, now more than ever: Operating system, applications, drivers, antivirus, etc ... In the coming days, and even months, there will be software updates that try to mitigate this problem.</li>
+	<li>Use common sense when downloading applications: Use the same common sense that you should always use to avoid being infected by a computer virus.</li>
+</ul>
+<p>These are advices that everybody should already be following.</p>
+<p>Against the second attack, what it is at risk is the information that the browser has already loaded in memory when the malicious code is executed. Therefore, my advice is:</p>
+<ul>
+<li>Do not keep sessions started in the browser when you are visiting pages of dubious origin.</li>
+	<li>Do not keep passwords saved in the browser.</li>
+	<li>Disable the execution of javascript in pages of dubious origin.</li>
+</ul>
+<p>Keeping all these in mind, you can take it easy. As <a target="_blank" href="https://www.youtube.com/watch?v=bjYhmX_OUQQ&amp;t=9m24s">the experts always say</a>: if a trained martial artist wants to beat you up you probably couldn't do anything about it. But in the meantime, with a bit of common sense you are relatively safe and you can live without fear.</p>
+<p>It is a completely different issue for the computer professionals; these vulnerabilities are going to involve lots of millions and many headaches. It's serious, yes; but for the ordinary citizen it will just be remembered as a scary tale as it already happened with the "<a target="blank" href="https://en.wikipedia.org/wiki/Year_2000_problem">Y2K problem</a>".</p>
+<p>Meltdown and Spectre for those who want to know more:</p>
+<ul>
+<li>
+<a target="_blank" href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/">First warning</a>.</li>
+	<li>
+<a target="_blank" href="https://meltdownattack.com/">Papers</a>.</li>
+</ul>
+</div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/security/" rel="tag">Security</a></li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
